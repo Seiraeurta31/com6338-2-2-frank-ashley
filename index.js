@@ -10,7 +10,7 @@ function greet (){
     }
 
     var age = prompt("How old are you?")
-    var birthday = confirm("Did you have a birthday this year? (Click OK for yes, Cancel for no)")
+    var birthday = confirm("Did you have a birthday this year? (OK = yes / Cancel = no)")
     if (birthday){
        alert('You were born in ' + (new Date().getFullYear() - age) + '!')
     }
